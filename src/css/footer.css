@@ -20,7 +20,7 @@ footer {
 }
 .position {
     position: relative;
-    overflow: hidden;
+    overflow: clip;
 }
  /* КРУГИ */
 .container_vnizu_stranici::after {
