@@ -195,7 +195,7 @@
   cursor: pointer;
   border: none;
   outline: none;
-  padding-right: 20px;
+  
 
 
 }
@@ -210,7 +210,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 8px;
-    margin: 24px 20px;
+    padding: 24px 0;
 
 }
 
@@ -271,7 +271,7 @@
 
 .mobile-menu {
  margin: 0 auto;
-margin-top: 140px;
+ padding-top: 120px;
 }
 
 .mobile-menu .link {
