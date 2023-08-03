@@ -1,27 +1,4 @@
-:root {
-    --dark-blue: #11131F;
-    --light-green: #93ABAE;
-    --linear-green: #BEC7C2;
-    --white: #F6F5EF;
-    --blue-2: #1F212D;
-}
 
-ul,
-ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-    list-style: none;
-}
-
-
-footer {
-    background-color: var(--dark-blue);
-}
-/* .position {
-    position: relative;
-    overflow: clip;
-} */
  /* КРУГИ */
 .container_vnizu_stranici::after {
      display: block;
@@ -42,6 +19,11 @@ footer {
 }
           /* Mobile */
 @media screen and (max-width:767px) {
+
+    .position {
+            position: relative;
+            overflow: clip;
+        }
     
     .footer_container {
         position: relative;
@@ -49,6 +31,7 @@ footer {
         height: 280px;
         margin-top: 40px;
     }
+
     .container_footer {
         width: 335px;
         height: 334px;
