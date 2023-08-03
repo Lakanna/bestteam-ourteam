@@ -33,9 +33,7 @@
   .header-container {
     display: flex;
     justify-content: space-between;
-    
-    margin-left: 20px;
-    margin-right: 20px;
+  
     margin-top: 24px;
   
    
@@ -67,8 +65,7 @@
     content: "";
     position: absolute;
     top: 72px;
-    left: 20px;
-    right: 20px;
+   
     display: block;
     height: 1px;
     width: 335px;
@@ -104,8 +101,7 @@
     content: "";
     position: absolute;
     top: 87px;
-    left: 32px;
-    right: 32px;
+    
     display: block;
     height: 1px;
     width: 704px;
@@ -140,11 +136,10 @@
     content: "";
     position: absolute;
     top: 87px;
-    left: 32px;
-    right: 32px;
+    
     display: block;
     height: 1px;
-    width: auto;
+    width: 1216px;
     background-color: rgba(246, 245, 239, 0.20);
 
   }
@@ -167,7 +162,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  
+  padding: 20px 20px;
   display: flex;
   flex-direction: column;
   z-index: 999;
@@ -230,8 +225,7 @@
   content: "";
   position: absolute;
   top: 72px;
-  left: 20px;
-  right: 20px;
+ 
   display: block;
   height: 1px;
   width: 335px;
