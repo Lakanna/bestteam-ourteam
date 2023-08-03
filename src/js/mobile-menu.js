@@ -14,6 +14,10 @@
       : 'enableBodyScroll';
     bodyScrollLock[scrollLockMethod](document.body);
   };
+   menuLinks.forEach(menuLink => {
+    menuLink.addEventListener('click', toggleMenu);
+  });
+
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
 
