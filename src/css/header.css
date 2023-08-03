@@ -224,7 +224,7 @@
 .menu-container::after {
   content: "";
   position: absolute;
-  top: 31px;
+  top: 72px;
   
   display: block;
   height: 1px;
