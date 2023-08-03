@@ -162,7 +162,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  padding: 20px 20px;
+  padding: 24px 20px;
   display: flex;
   flex-direction: column;
   z-index: 999;
@@ -221,10 +221,10 @@
 
 }
 
-.mob-logo-section::after {
+.menu-container::after {
   content: "";
   position: absolute;
-  top: 72px;
+  top: 31px;
   
   display: block;
   height: 1px;
@@ -258,7 +258,7 @@
 
 .menu-container .menu-toggle {
   position: absolute;
-  top: 24px;
+  
   right: 20px;
   color: rgba(17, 19, 31, 1);
 }
