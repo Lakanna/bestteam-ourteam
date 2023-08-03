@@ -149,6 +149,7 @@
     margin-bottom: 32px;
     width: 68px;
     height: 68px;
+    scroll-behavior: smooth;
   }
 }
 @media screen and (min-width: 1280px) {
