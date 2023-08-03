@@ -225,10 +225,10 @@
   content: "";
   position: absolute;
   top: 72px;
- 
+  margin-top: 24px;
   display: block;
   height: 1px;
-  width: 335px;
+  width: auto;
   background-color: rgba(246, 245, 239, 0.20);
 
 }
