@@ -4,6 +4,10 @@
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
+
+ const menuLinks = document.querySelectorAll('.mob-menu-link');
+
+
   const toggleMenu = () => {
     const isMenuOpen =
       openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
@@ -14,6 +18,7 @@
       : 'enableBodyScroll';
     bodyScrollLock[scrollLockMethod](document.body);
   };
+
    menuLinks.forEach(menuLink => {
     menuLink.addEventListener('click', toggleMenu);
   });
